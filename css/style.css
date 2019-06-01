@@ -1,0 +1,11 @@
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header nav a {
+    display: block;
+    padding: 0 15px;
+    margin-right: 1px;
+}
