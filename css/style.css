@@ -136,7 +136,7 @@ footer ul a {
 }
 .footer-links {
     display: grid;
-    grid-template-rows: 50x;
+    grid-template-rows: 50px;
     grid-template-columns: 200px 1fr 250px;
 
 }
