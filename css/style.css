@@ -137,8 +137,20 @@ footer ul a {
     margin-top: 60px;
     padding-right: 50px;
 }
-.icons a {
-    text-decoration: none;
-    text-align: center;
+.footer-links {
+    display: grid;
+    grid-template-rows: 50x;
+    grid-template-columns: 200px 1fr 250px;
+
+}
+#icons {
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
     color: rgb(70, 69, 69);
+    padding-top: 15px;
+}
+#icons a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    margin: 5px;
 }
